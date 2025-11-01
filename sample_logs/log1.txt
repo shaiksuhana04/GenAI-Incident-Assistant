@@ -1,0 +1,7 @@
+2025-10-30T08:12:10Z ERROR [auth-service] java.lang.NullPointerException at AuthHandler.java:213
+2025-10-30T08:12:11Z WARN [auth-service] Connection to db-user timed out after 5000ms
+2025-10-30T08:12:12Z INFO [auth-service] Retrying DB connection (attempt 2)
+2025-10-30T08:12:16Z ERROR [auth-service] java.lang.NullPointerException at AuthHandler.java:213
+2025-10-30T08:12:17Z ERROR [payments-service] ERROR 503 Service Unavailable - upstream timeout
+2025-10-30T08:12:20Z INFO [orchestrator] Scaling up node group 'worker-pool' from 3 to 4
+2025-10-30T08:12:25Z ERROR [auth-service] Failed to provision DB connection pool - OutOfMemoryError

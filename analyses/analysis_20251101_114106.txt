@@ -1,14 +1,14 @@
 === LOG INPUT ===
 A critical AWS EC2 instance went down. Suggest steps to resolve.
 
+=== GEMINI OUTPUT ===
+To resolve a critical EC2 outage:
+1. Verify the instance state in AWS Console.
+2. Check CloudWatch metrics for CPU, memory, and status checks.
+3. Review recent deployments or configuration changes.
+4. Attempt to restart the instance.
+5. If EBS volume corruption is suspected, detach and attach to a healthy instance for data recovery.
+6. Enable Auto-Recovery if not already configured.
 
-=== LLM OUTPUT ===
-LLM call failed: 
-
-You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
-
-You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
-
-Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
-
-A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+============================================================
+    
